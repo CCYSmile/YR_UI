@@ -1,0 +1,1521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AF457F03D73FEB30AF4AD0961015319 /* YRUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15696184E4848AA55C794D1BF476B6AD /* YRUI-dummy.m */; };
+		0CBAE2FE2254558100D9718B /* YRTip.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2642254558000D9718B /* YRTip.h */; };
+		0CBAE2FF2254558100D9718B /* YRDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2652254558000D9718B /* YRDialog.m */; };
+		0CBAE3002254558100D9718B /* YRIndicatorComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2662254558000D9718B /* YRIndicatorComponent.h */; };
+		0CBAE3012254558100D9718B /* YRIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2672254558000D9718B /* YRIndicator.h */; };
+		0CBAE3022254558100D9718B /* YRTip.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2682254558000D9718B /* YRTip.m */; };
+		0CBAE3032254558100D9718B /* YRDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2692254558000D9718B /* YRDialog.h */; };
+		0CBAE3042254558100D9718B /* YRIndicatorComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE26A2254558000D9718B /* YRIndicatorComponent.m */; };
+		0CBAE3052254558100D9718B /* YRIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE26B2254558000D9718B /* YRIndicator.m */; };
+		0CBAE3062254558100D9718B /* YRListRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE26D2254558000D9718B /* YRListRow.m */; };
+		0CBAE3072254558100D9718B /* YRLabelBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE26E2254558000D9718B /* YRLabelBar.h */; };
+		0CBAE3082254558100D9718B /* YRLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE26F2254558000D9718B /* YRLabel.h */; };
+		0CBAE3092254558100D9718B /* YRPagination.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2702254558000D9718B /* YRPagination.m */; };
+		0CBAE30A2254558100D9718B /* YRSegmentSelect.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2712254558000D9718B /* YRSegmentSelect.m */; };
+		0CBAE30B2254558100D9718B /* YRBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2722254558000D9718B /* YRBubble.m */; };
+		0CBAE30C2254558100D9718B /* YRLabelBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2732254558000D9718B /* YRLabelBar.m */; };
+		0CBAE30D2254558100D9718B /* YRListRow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2742254558000D9718B /* YRListRow.h */; };
+		0CBAE30E2254558100D9718B /* YRPagination.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2752254558000D9718B /* YRPagination.h */; };
+		0CBAE30F2254558100D9718B /* YRLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2762254558000D9718B /* YRLabel.m */; };
+		0CBAE3102254558100D9718B /* YRBubble.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2772254558000D9718B /* YRBubble.h */; };
+		0CBAE3112254558100D9718B /* YRSegmentSelect.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2782254558000D9718B /* YRSegmentSelect.h */; };
+		0CBAE3122254558100D9718B /* YRSearchInput.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE27A2254558000D9718B /* YRSearchInput.h */; };
+		0CBAE3132254558100D9718B /* YRTextInputView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE27B2254558000D9718B /* YRTextInputView.h */; };
+		0CBAE3142254558100D9718B /* YRSingleSelectedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE27D2254558000D9718B /* YRSingleSelectedView.h */; };
+		0CBAE3152254558100D9718B /* YRCheckView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE27E2254558000D9718B /* YRCheckView.h */; };
+		0CBAE3162254558100D9718B /* selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAE2802254558000D9718B /* selected.png */; };
+		0CBAE3172254558100D9718B /* unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAE2812254558000D9718B /* unselected.png */; };
+		0CBAE3182254558100D9718B /* YRSingleSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2822254558000D9718B /* YRSingleSelectedView.m */; };
+		0CBAE3192254558100D9718B /* YRCheckCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2842254558000D9718B /* YRCheckCell.h */; };
+		0CBAE31A2254558100D9718B /* YRCheckCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2852254558000D9718B /* YRCheckCell.m */; };
+		0CBAE31B2254558100D9718B /* YRCheckView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2862254558000D9718B /* YRCheckView.m */; };
+		0CBAE31C2254558100D9718B /* YRDoubleSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2892254558000D9718B /* YRDoubleSlider.m */; };
+		0CBAE31D2254558100D9718B /* YRDoubleSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE28A2254558000D9718B /* YRDoubleSlider.h */; };
+		0CBAE31E2254558100D9718B /* UIView+Dimension.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE28C2254558000D9718B /* UIView+Dimension.h */; };
+		0CBAE31F2254558100D9718B /* JLDoubleSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE28D2254558000D9718B /* JLDoubleSlider.m */; };
+		0CBAE3202254558100D9718B /* UIView+Dimension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE28E2254558000D9718B /* UIView+Dimension.m */; };
+		0CBAE3212254558100D9718B /* JLDoubleSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE28F2254558000D9718B /* JLDoubleSlider.h */; };
+		0CBAE3222254558100D9718B /* YRTextInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2902254558000D9718B /* YRTextInputView.m */; };
+		0CBAE3232254558100D9718B /* YRSearchInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2912254558100D9718B /* YRSearchInput.m */; };
+		0CBAE3242254558100D9718B /* LabeledActivityIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2932254558100D9718B /* LabeledActivityIndicatorView.h */; };
+		0CBAE3252254558100D9718B /* YRLargeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2942254558100D9718B /* YRLargeButton.m */; };
+		0CBAE3262254558100D9718B /* YRLargeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2952254558100D9718B /* YRLargeButton.h */; };
+		0CBAE3272254558100D9718B /* LabeledActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2962254558100D9718B /* LabeledActivityIndicatorView.m */; };
+		0CBAE3282254558100D9718B /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAE2972254558100D9718B /* success.png */; };
+		0CBAE3292254558100D9718B /* YRSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2992254558100D9718B /* YRSlider.h */; };
+		0CBAE32A2254558100D9718B /* YRSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE29A2254558100D9718B /* YRSlider.m */; };
+		0CBAE32B2254558100D9718B /* YRSwitchView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE29C2254558100D9718B /* YRSwitchView.h */; };
+		0CBAE32C2254558100D9718B /* YRStepsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE29D2254558100D9718B /* YRStepsView.m */; };
+		0CBAE32D2254558100D9718B /* YRSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE29E2254558100D9718B /* YRSwitchView.m */; };
+		0CBAE32E2254558100D9718B /* YRStepsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE29F2254558100D9718B /* YRStepsView.h */; };
+		0CBAE32F2254558100D9718B /* YRLaunchAdManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2A22254558100D9718B /* YRLaunchAdManager.h */; };
+		0CBAE3302254558100D9718B /* LaunchVideoAd.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAE2A42254558100D9718B /* LaunchVideoAd.json */; };
+		0CBAE3312254558100D9718B /* video0.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAE2A52254558100D9718B /* video0.mp4 */; };
+		0CBAE3322254558100D9718B /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAE2A62254558100D9718B /* video1.mp4 */; };
+		0CBAE3332254558100D9718B /* LaunchImageAd.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAE2A72254558100D9718B /* LaunchImageAd.json */; };
+		0CBAE3342254558100D9718B /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAE2A82254558100D9718B /* image4.jpg */; };
+		0CBAE3352254558100D9718B /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAE2A92254558100D9718B /* image1.jpg */; };
+		0CBAE3362254558100D9718B /* image12.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAE2AA2254558100D9718B /* image12.gif */; };
+		0CBAE3372254558100D9718B /* image0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAE2AB2254558100D9718B /* image0.jpg */; };
+		0CBAE3382254558100D9718B /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAE2AC2254558100D9718B /* image2.jpg */; };
+		0CBAE3392254558100D9718B /* image11.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAE2AD2254558100D9718B /* image11.gif */; };
+		0CBAE33A2254558100D9718B /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAE2AE2254558100D9718B /* image3.jpg */; };
+		0CBAE33B2254558100D9718B /* YRLaunchAdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2AF2254558100D9718B /* YRLaunchAdManager.m */; };
+		0CBAE33C2254558100D9718B /* Network.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2B32254558100D9718B /* Network.m */; };
+		0CBAE33D2254558100D9718B /* Network.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2B42254558100D9718B /* Network.h */; };
+		0CBAE33E2254558100D9718B /* UIViewController+Nav.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2B62254558100D9718B /* UIViewController+Nav.h */; };
+		0CBAE33F2254558100D9718B /* UIViewController+Nav.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2B72254558100D9718B /* UIViewController+Nav.m */; };
+		0CBAE3402254558100D9718B /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2B82254558100D9718B /* WebViewController.m */; };
+		0CBAE3412254558100D9718B /* LaunchAdModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2BA2254558100D9718B /* LaunchAdModel.h */; };
+		0CBAE3422254558100D9718B /* LaunchAdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2BB2254558100D9718B /* LaunchAdModel.m */; };
+		0CBAE3432254558100D9718B /* WebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2BC2254558100D9718B /* WebViewController.h */; };
+		0CBAE3442254558100D9718B /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2C02254558100D9718B /* FLAnimatedImage.m */; };
+		0CBAE3452254558100D9718B /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2C12254558100D9718B /* FLAnimatedImageView.m */; };
+		0CBAE3462254558100D9718B /* FLAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2C22254558100D9718B /* FLAnimatedImage.h */; };
+		0CBAE3472254558100D9718B /* FLAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2C32254558100D9718B /* FLAnimatedImageView.h */; };
+		0CBAE3482254558100D9718B /* XHLaunchAdController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2C52254558100D9718B /* XHLaunchAdController.h */; };
+		0CBAE3492254558100D9718B /* XHLaunchAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2C62254558100D9718B /* XHLaunchAd.h */; };
+		0CBAE34A2254558100D9718B /* XHLaunchAdDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2C72254558100D9718B /* XHLaunchAdDownloader.h */; };
+		0CBAE34B2254558100D9718B /* XHLaunchAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2C82254558100D9718B /* XHLaunchAdView.m */; };
+		0CBAE34C2254558100D9718B /* XHLaunchAdCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2C92254558100D9718B /* XHLaunchAdCache.h */; };
+		0CBAE34D2254558100D9718B /* XHLaunchAdConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2CA2254558100D9718B /* XHLaunchAdConfiguration.h */; };
+		0CBAE34E2254558100D9718B /* XHLaunchAdButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2CB2254558100D9718B /* XHLaunchAdButton.m */; };
+		0CBAE34F2254558100D9718B /* XHLaunchAdImageView+XHLaunchAdCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2CC2254558100D9718B /* XHLaunchAdImageView+XHLaunchAdCache.h */; };
+		0CBAE3502254558100D9718B /* XHLaunchImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2CD2254558100D9718B /* XHLaunchImageView.m */; };
+		0CBAE3512254558100D9718B /* XHLaunchAdConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2CE2254558100D9718B /* XHLaunchAdConst.m */; };
+		0CBAE3522254558100D9718B /* XHLaunchAdImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2CF2254558100D9718B /* XHLaunchAdImageManager.h */; };
+		0CBAE3532254558100D9718B /* XHLaunchAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2D02254558100D9718B /* XHLaunchAd.m */; };
+		0CBAE3542254558100D9718B /* XHLaunchAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2D12254558100D9718B /* XHLaunchAdController.m */; };
+		0CBAE3552254558100D9718B /* XHLaunchAdDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2D22254558100D9718B /* XHLaunchAdDownloader.m */; };
+		0CBAE3562254558100D9718B /* XHLaunchImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2D32254558100D9718B /* XHLaunchImageView.h */; };
+		0CBAE3572254558100D9718B /* XHLaunchAdImageView+XHLaunchAdCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2D42254558100D9718B /* XHLaunchAdImageView+XHLaunchAdCache.m */; };
+		0CBAE3582254558100D9718B /* XHLaunchAdConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2D52254558100D9718B /* XHLaunchAdConfiguration.m */; };
+		0CBAE3592254558100D9718B /* XHLaunchAdButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2D62254558100D9718B /* XHLaunchAdButton.h */; };
+		0CBAE35A2254558100D9718B /* XHLaunchAdCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2D72254558100D9718B /* XHLaunchAdCache.m */; };
+		0CBAE35B2254558100D9718B /* XHLaunchAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2D82254558100D9718B /* XHLaunchAdView.h */; };
+		0CBAE35C2254558100D9718B /* XHLaunchAdImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2D92254558100D9718B /* XHLaunchAdImageManager.m */; };
+		0CBAE35D2254558100D9718B /* XHLaunchAdConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2DA2254558100D9718B /* XHLaunchAdConst.h */; };
+		0CBAE35E2254558100D9718B /* YRBadgeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2DC2254558100D9718B /* YRBadgeView.h */; };
+		0CBAE35F2254558100D9718B /* YRStepsSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2DE2254558100D9718B /* YRStepsSlider.h */; };
+		0CBAE3602254558100D9718B /* YRStepsSliderRowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2DF2254558100D9718B /* YRStepsSliderRowView.m */; };
+		0CBAE3612254558100D9718B /* YRStepsSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2E02254558100D9718B /* YRStepsSlider.m */; };
+		0CBAE3622254558100D9718B /* YRStepsSliderSubView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2E22254558100D9718B /* YRStepsSliderSubView.h */; };
+		0CBAE3632254558100D9718B /* YSStepsRowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2E32254558100D9718B /* YSStepsRowView.m */; };
+		0CBAE3642254558100D9718B /* YSStepsRowView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2E42254558100D9718B /* YSStepsRowView.h */; };
+		0CBAE3652254558100D9718B /* YRStepsSliderSubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2E52254558100D9718B /* YRStepsSliderSubView.m */; };
+		0CBAE3662254558100D9718B /* YRStepsSliderRowView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2E62254558100D9718B /* YRStepsSliderRowView.h */; };
+		0CBAE3672254558100D9718B /* YRNoticeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2E82254558100D9718B /* YRNoticeView.m */; };
+		0CBAE3682254558100D9718B /* YRNoticeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2E92254558100D9718B /* YRNoticeView.h */; };
+		0CBAE3692254558100D9718B /* laba.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAE2EB2254558100D9718B /* laba.png */; };
+		0CBAE36A2254558100D9718B /* push.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAE2EC2254558100D9718B /* push.png */; };
+		0CBAE36B2254558100D9718B /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAE2ED2254558100D9718B /* close.png */; };
+		0CBAE36C2254558100D9718B /* YRBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2EE2254558100D9718B /* YRBadgeView.m */; };
+		0CBAE36D2254558100D9718B /* YRRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2F02254558100D9718B /* YRRefreshHeader.h */; };
+		0CBAE36E2254558100D9718B /* YRRefreshFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2F12254558100D9718B /* YRRefreshFooter.h */; };
+		0CBAE36F2254558100D9718B /* YRRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2F22254558100D9718B /* YRRefreshFooter.m */; };
+		0CBAE3702254558100D9718B /* YRRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2F32254558100D9718B /* YRRefreshHeader.m */; };
+		0CBAE3712254558100D9718B /* YRStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2F52254558100D9718B /* YRStyle.h */; };
+		0CBAE3722254558100D9718B /* YRCommonConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2F62254558100D9718B /* YRCommonConfig.m */; };
+		0CBAE3732254558100D9718B /* YRUICommonDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2F72254558100D9718B /* YRUICommonDefines.h */; };
+		0CBAE3742254558100D9718B /* YRCommonConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2F82254558100D9718B /* YRCommonConfig.h */; };
+		0CBAE3752254558100D9718B /* YRStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2F92254558100D9718B /* YRStyle.m */; };
+		0CBAE3762254558100D9718B /* YRUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2FA2254558100D9718B /* YRUIKit.h */; };
+		0CBAE3772254558100D9718B /* UIView+YRUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAE2FC2254558100D9718B /* UIView+YRUI.h */; };
+		0CBAE3782254558100D9718B /* UIView+YRUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE2FD2254558100D9718B /* UIView+YRUI.m */; };
+		102B1A3D8CA8D4A88FE755B175B951D5 /* Pods-YRUI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E850D4A3AC0693AF6255862DC240AA /* Pods-YRUI_Tests-dummy.m */; };
+		1E7247D8A89C2741CC834A2BC266DFAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		413EA07049EB0317B137681EDB4F8281 /* Pods-YRUI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD799610CC0EF984FC4C61DAD3E3A96D /* Pods-YRUI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52060DBF869B745F71AAA3203ADA64D8 /* YRUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3309B9E11355C5313C20EE5256BAC13 /* YRUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DB7AE9D317AD346614575D7C891CE52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		ACEACC369702094F6F9B066DBE0D6010 /* Pods-YRUI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D601828BD22E6FE4001C83789F66E2B /* Pods-YRUI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5EC3C7A91E08C9742C39B1745B1631A /* Pods-YRUI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9602CAAE84D1508DA93A871DC234310B /* Pods-YRUI_Example-dummy.m */; };
+		EE9951CA6D53AEBF56F03ED47A282CA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16EE2DF658414EA109BD1F34BF0F6022 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8466D5551091564A9D3D0E0F685CF42;
+			remoteInfo = YRUI;
+		};
+		94B9722F7213CF75E4FC4513713E115C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14507F55AB04CBD4DA3BE6DA783E3C7F;
+			remoteInfo = "Pods-YRUI_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0032BF3E39211F593E6BD5A97DAEE6DF /* Pods-YRUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YRUI_Example.release.xcconfig"; sourceTree = "<group>"; };
+		05C705D1C8EDCEB5B9669CF18AB592C4 /* YRUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YRUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0CBAE2642254558000D9718B /* YRTip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTip.h; sourceTree = "<group>"; };
+		0CBAE2652254558000D9718B /* YRDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRDialog.m; sourceTree = "<group>"; };
+		0CBAE2662254558000D9718B /* YRIndicatorComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRIndicatorComponent.h; sourceTree = "<group>"; };
+		0CBAE2672254558000D9718B /* YRIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRIndicator.h; sourceTree = "<group>"; };
+		0CBAE2682254558000D9718B /* YRTip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRTip.m; sourceTree = "<group>"; };
+		0CBAE2692254558000D9718B /* YRDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRDialog.h; sourceTree = "<group>"; };
+		0CBAE26A2254558000D9718B /* YRIndicatorComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRIndicatorComponent.m; sourceTree = "<group>"; };
+		0CBAE26B2254558000D9718B /* YRIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRIndicator.m; sourceTree = "<group>"; };
+		0CBAE26D2254558000D9718B /* YRListRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRListRow.m; sourceTree = "<group>"; };
+		0CBAE26E2254558000D9718B /* YRLabelBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRLabelBar.h; sourceTree = "<group>"; };
+		0CBAE26F2254558000D9718B /* YRLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRLabel.h; sourceTree = "<group>"; };
+		0CBAE2702254558000D9718B /* YRPagination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRPagination.m; sourceTree = "<group>"; };
+		0CBAE2712254558000D9718B /* YRSegmentSelect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRSegmentSelect.m; sourceTree = "<group>"; };
+		0CBAE2722254558000D9718B /* YRBubble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRBubble.m; sourceTree = "<group>"; };
+		0CBAE2732254558000D9718B /* YRLabelBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRLabelBar.m; sourceTree = "<group>"; };
+		0CBAE2742254558000D9718B /* YRListRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRListRow.h; sourceTree = "<group>"; };
+		0CBAE2752254558000D9718B /* YRPagination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRPagination.h; sourceTree = "<group>"; };
+		0CBAE2762254558000D9718B /* YRLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRLabel.m; sourceTree = "<group>"; };
+		0CBAE2772254558000D9718B /* YRBubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRBubble.h; sourceTree = "<group>"; };
+		0CBAE2782254558000D9718B /* YRSegmentSelect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRSegmentSelect.h; sourceTree = "<group>"; };
+		0CBAE27A2254558000D9718B /* YRSearchInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRSearchInput.h; sourceTree = "<group>"; };
+		0CBAE27B2254558000D9718B /* YRTextInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTextInputView.h; sourceTree = "<group>"; };
+		0CBAE27D2254558000D9718B /* YRSingleSelectedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRSingleSelectedView.h; sourceTree = "<group>"; };
+		0CBAE27E2254558000D9718B /* YRCheckView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRCheckView.h; sourceTree = "<group>"; };
+		0CBAE2802254558000D9718B /* selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selected.png; sourceTree = "<group>"; };
+		0CBAE2812254558000D9718B /* unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unselected.png; sourceTree = "<group>"; };
+		0CBAE2822254558000D9718B /* YRSingleSelectedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRSingleSelectedView.m; sourceTree = "<group>"; };
+		0CBAE2842254558000D9718B /* YRCheckCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRCheckCell.h; sourceTree = "<group>"; };
+		0CBAE2852254558000D9718B /* YRCheckCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRCheckCell.m; sourceTree = "<group>"; };
+		0CBAE2862254558000D9718B /* YRCheckView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRCheckView.m; sourceTree = "<group>"; };
+		0CBAE2892254558000D9718B /* YRDoubleSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRDoubleSlider.m; sourceTree = "<group>"; };
+		0CBAE28A2254558000D9718B /* YRDoubleSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRDoubleSlider.h; sourceTree = "<group>"; };
+		0CBAE28C2254558000D9718B /* UIView+Dimension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Dimension.h"; sourceTree = "<group>"; };
+		0CBAE28D2254558000D9718B /* JLDoubleSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLDoubleSlider.m; sourceTree = "<group>"; };
+		0CBAE28E2254558000D9718B /* UIView+Dimension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Dimension.m"; sourceTree = "<group>"; };
+		0CBAE28F2254558000D9718B /* JLDoubleSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLDoubleSlider.h; sourceTree = "<group>"; };
+		0CBAE2902254558000D9718B /* YRTextInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRTextInputView.m; sourceTree = "<group>"; };
+		0CBAE2912254558100D9718B /* YRSearchInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRSearchInput.m; sourceTree = "<group>"; };
+		0CBAE2932254558100D9718B /* LabeledActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabeledActivityIndicatorView.h; sourceTree = "<group>"; };
+		0CBAE2942254558100D9718B /* YRLargeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRLargeButton.m; sourceTree = "<group>"; };
+		0CBAE2952254558100D9718B /* YRLargeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRLargeButton.h; sourceTree = "<group>"; };
+		0CBAE2962254558100D9718B /* LabeledActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabeledActivityIndicatorView.m; sourceTree = "<group>"; };
+		0CBAE2972254558100D9718B /* success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = success.png; sourceTree = "<group>"; };
+		0CBAE2992254558100D9718B /* YRSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRSlider.h; sourceTree = "<group>"; };
+		0CBAE29A2254558100D9718B /* YRSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRSlider.m; sourceTree = "<group>"; };
+		0CBAE29C2254558100D9718B /* YRSwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRSwitchView.h; sourceTree = "<group>"; };
+		0CBAE29D2254558100D9718B /* YRStepsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRStepsView.m; sourceTree = "<group>"; };
+		0CBAE29E2254558100D9718B /* YRSwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRSwitchView.m; sourceTree = "<group>"; };
+		0CBAE29F2254558100D9718B /* YRStepsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRStepsView.h; sourceTree = "<group>"; };
+		0CBAE2A22254558100D9718B /* YRLaunchAdManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRLaunchAdManager.h; sourceTree = "<group>"; };
+		0CBAE2A42254558100D9718B /* LaunchVideoAd.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LaunchVideoAd.json; sourceTree = "<group>"; };
+		0CBAE2A52254558100D9718B /* video0.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video0.mp4; sourceTree = "<group>"; };
+		0CBAE2A62254558100D9718B /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
+		0CBAE2A72254558100D9718B /* LaunchImageAd.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LaunchImageAd.json; sourceTree = "<group>"; };
+		0CBAE2A82254558100D9718B /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpg; sourceTree = "<group>"; };
+		0CBAE2A92254558100D9718B /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		0CBAE2AA2254558100D9718B /* image12.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = image12.gif; sourceTree = "<group>"; };
+		0CBAE2AB2254558100D9718B /* image0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image0.jpg; sourceTree = "<group>"; };
+		0CBAE2AC2254558100D9718B /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		0CBAE2AD2254558100D9718B /* image11.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = image11.gif; sourceTree = "<group>"; };
+		0CBAE2AE2254558100D9718B /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		0CBAE2AF2254558100D9718B /* YRLaunchAdManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRLaunchAdManager.m; sourceTree = "<group>"; };
+		0CBAE2B32254558100D9718B /* Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Network.m; sourceTree = "<group>"; };
+		0CBAE2B42254558100D9718B /* Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Network.h; sourceTree = "<group>"; };
+		0CBAE2B62254558100D9718B /* UIViewController+Nav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Nav.h"; sourceTree = "<group>"; };
+		0CBAE2B72254558100D9718B /* UIViewController+Nav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Nav.m"; sourceTree = "<group>"; };
+		0CBAE2B82254558100D9718B /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		0CBAE2BA2254558100D9718B /* LaunchAdModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchAdModel.h; sourceTree = "<group>"; };
+		0CBAE2BB2254558100D9718B /* LaunchAdModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchAdModel.m; sourceTree = "<group>"; };
+		0CBAE2BC2254558100D9718B /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		0CBAE2C02254558100D9718B /* FLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImage.m; sourceTree = "<group>"; };
+		0CBAE2C12254558100D9718B /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImageView.m; sourceTree = "<group>"; };
+		0CBAE2C22254558100D9718B /* FLAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImage.h; sourceTree = "<group>"; };
+		0CBAE2C32254558100D9718B /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImageView.h; sourceTree = "<group>"; };
+		0CBAE2C52254558100D9718B /* XHLaunchAdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdController.h; sourceTree = "<group>"; };
+		0CBAE2C62254558100D9718B /* XHLaunchAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAd.h; sourceTree = "<group>"; };
+		0CBAE2C72254558100D9718B /* XHLaunchAdDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdDownloader.h; sourceTree = "<group>"; };
+		0CBAE2C82254558100D9718B /* XHLaunchAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdView.m; sourceTree = "<group>"; };
+		0CBAE2C92254558100D9718B /* XHLaunchAdCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdCache.h; sourceTree = "<group>"; };
+		0CBAE2CA2254558100D9718B /* XHLaunchAdConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdConfiguration.h; sourceTree = "<group>"; };
+		0CBAE2CB2254558100D9718B /* XHLaunchAdButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdButton.m; sourceTree = "<group>"; };
+		0CBAE2CC2254558100D9718B /* XHLaunchAdImageView+XHLaunchAdCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XHLaunchAdImageView+XHLaunchAdCache.h"; sourceTree = "<group>"; };
+		0CBAE2CD2254558100D9718B /* XHLaunchImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchImageView.m; sourceTree = "<group>"; };
+		0CBAE2CE2254558100D9718B /* XHLaunchAdConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdConst.m; sourceTree = "<group>"; };
+		0CBAE2CF2254558100D9718B /* XHLaunchAdImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdImageManager.h; sourceTree = "<group>"; };
+		0CBAE2D02254558100D9718B /* XHLaunchAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAd.m; sourceTree = "<group>"; };
+		0CBAE2D12254558100D9718B /* XHLaunchAdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdController.m; sourceTree = "<group>"; };
+		0CBAE2D22254558100D9718B /* XHLaunchAdDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdDownloader.m; sourceTree = "<group>"; };
+		0CBAE2D32254558100D9718B /* XHLaunchImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchImageView.h; sourceTree = "<group>"; };
+		0CBAE2D42254558100D9718B /* XHLaunchAdImageView+XHLaunchAdCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XHLaunchAdImageView+XHLaunchAdCache.m"; sourceTree = "<group>"; };
+		0CBAE2D52254558100D9718B /* XHLaunchAdConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdConfiguration.m; sourceTree = "<group>"; };
+		0CBAE2D62254558100D9718B /* XHLaunchAdButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdButton.h; sourceTree = "<group>"; };
+		0CBAE2D72254558100D9718B /* XHLaunchAdCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdCache.m; sourceTree = "<group>"; };
+		0CBAE2D82254558100D9718B /* XHLaunchAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdView.h; sourceTree = "<group>"; };
+		0CBAE2D92254558100D9718B /* XHLaunchAdImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdImageManager.m; sourceTree = "<group>"; };
+		0CBAE2DA2254558100D9718B /* XHLaunchAdConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdConst.h; sourceTree = "<group>"; };
+		0CBAE2DC2254558100D9718B /* YRBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRBadgeView.h; sourceTree = "<group>"; };
+		0CBAE2DE2254558100D9718B /* YRStepsSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRStepsSlider.h; sourceTree = "<group>"; };
+		0CBAE2DF2254558100D9718B /* YRStepsSliderRowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRStepsSliderRowView.m; sourceTree = "<group>"; };
+		0CBAE2E02254558100D9718B /* YRStepsSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRStepsSlider.m; sourceTree = "<group>"; };
+		0CBAE2E22254558100D9718B /* YRStepsSliderSubView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRStepsSliderSubView.h; sourceTree = "<group>"; };
+		0CBAE2E32254558100D9718B /* YSStepsRowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSStepsRowView.m; sourceTree = "<group>"; };
+		0CBAE2E42254558100D9718B /* YSStepsRowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSStepsRowView.h; sourceTree = "<group>"; };
+		0CBAE2E52254558100D9718B /* YRStepsSliderSubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRStepsSliderSubView.m; sourceTree = "<group>"; };
+		0CBAE2E62254558100D9718B /* YRStepsSliderRowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRStepsSliderRowView.h; sourceTree = "<group>"; };
+		0CBAE2E82254558100D9718B /* YRNoticeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRNoticeView.m; sourceTree = "<group>"; };
+		0CBAE2E92254558100D9718B /* YRNoticeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRNoticeView.h; sourceTree = "<group>"; };
+		0CBAE2EB2254558100D9718B /* laba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laba.png; sourceTree = "<group>"; };
+		0CBAE2EC2254558100D9718B /* push.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = push.png; sourceTree = "<group>"; };
+		0CBAE2ED2254558100D9718B /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		0CBAE2EE2254558100D9718B /* YRBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRBadgeView.m; sourceTree = "<group>"; };
+		0CBAE2F02254558100D9718B /* YRRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRRefreshHeader.h; sourceTree = "<group>"; };
+		0CBAE2F12254558100D9718B /* YRRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRRefreshFooter.h; sourceTree = "<group>"; };
+		0CBAE2F22254558100D9718B /* YRRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRRefreshFooter.m; sourceTree = "<group>"; };
+		0CBAE2F32254558100D9718B /* YRRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRRefreshHeader.m; sourceTree = "<group>"; };
+		0CBAE2F52254558100D9718B /* YRStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRStyle.h; sourceTree = "<group>"; };
+		0CBAE2F62254558100D9718B /* YRCommonConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRCommonConfig.m; sourceTree = "<group>"; };
+		0CBAE2F72254558100D9718B /* YRUICommonDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRUICommonDefines.h; sourceTree = "<group>"; };
+		0CBAE2F82254558100D9718B /* YRCommonConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRCommonConfig.h; sourceTree = "<group>"; };
+		0CBAE2F92254558100D9718B /* YRStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRStyle.m; sourceTree = "<group>"; };
+		0CBAE2FA2254558100D9718B /* YRUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YRUIKit.h; path = YRUI/Classes/YRUIKit.h; sourceTree = "<group>"; };
+		0CBAE2FC2254558100D9718B /* UIView+YRUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YRUI.h"; sourceTree = "<group>"; };
+		0CBAE2FD2254558100D9718B /* UIView+YRUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YRUI.m"; sourceTree = "<group>"; };
+		1055C09DC978D32C4BF3A0F4F2E8C3E8 /* Pods-YRUI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YRUI_Example-frameworks.sh"; sourceTree = "<group>"; };
+		15696184E4848AA55C794D1BF476B6AD /* YRUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YRUI-dummy.m"; sourceTree = "<group>"; };
+		19773BFF2B5666624ECA95AA0F4D9543 /* Pods-YRUI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YRUI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1D601828BD22E6FE4001C83789F66E2B /* Pods-YRUI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YRUI_Example-umbrella.h"; sourceTree = "<group>"; };
+		1E490A6C5D72ACD3AA5EC4013E70C283 /* Pods-YRUI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YRUI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		25E850D4A3AC0693AF6255862DC240AA /* Pods-YRUI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YRUI_Tests-dummy.m"; sourceTree = "<group>"; };
+		2989E868F93B4932642E8501EA10FAA6 /* Pods-YRUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YRUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		37232E5C5F1AF53677734EFAF4179E73 /* YRUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YRUI-prefix.pch"; sourceTree = "<group>"; };
+		4A7AFAEB2C1CA285E565D0CB39C23333 /* Pods-YRUI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YRUI_Example.modulemap"; sourceTree = "<group>"; };
+		51C9B05DC4616C8D3D441979818E5787 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		53FAF1AC3C61907AC552F25533CB6BA4 /* Pods_YRUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YRUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		593AF1A5D9B9FE6F1188183201DF5454 /* YRUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YRUI-Info.plist"; sourceTree = "<group>"; };
+		5CED05434EDC7B82FBEAA65C4281C725 /* Pods-YRUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YRUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		700156925B7400595CF804FB6A23437E /* YRUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YRUI.xcconfig; sourceTree = "<group>"; };
+		76742D93672EBE8A97E615C4AA205FB7 /* YRUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YRUI.modulemap; sourceTree = "<group>"; };
+		8AECE94D356AEE0F905300F668815656 /* YRUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YRUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92936B3E4E0972FE0E3DEDAB293FF8A6 /* Pods-YRUI_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YRUI_Example-Info.plist"; sourceTree = "<group>"; };
+		9602CAAE84D1508DA93A871DC234310B /* Pods-YRUI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YRUI_Example-dummy.m"; sourceTree = "<group>"; };
+		9CB9E78EF18D223489FEF8D04215AC32 /* Pods-YRUI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YRUI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A81A74954D58BB892043B5AB1D396B6C /* Pods_YRUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YRUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AED3F985C280164CCC6E748A90B6EB84 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B34407CB279A0B485615DA550B9818DB /* Pods-YRUI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YRUI_Tests.modulemap"; sourceTree = "<group>"; };
+		B5990AAB3B045C5E15678C1039BA5CDA /* Pods-YRUI_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YRUI_Tests-Info.plist"; sourceTree = "<group>"; };
+		B5A786771AC84D160ED308A139E79DF5 /* Pods-YRUI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YRUI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CD799610CC0EF984FC4C61DAD3E3A96D /* Pods-YRUI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YRUI_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D3309B9E11355C5313C20EE5256BAC13 /* YRUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YRUI-umbrella.h"; sourceTree = "<group>"; };
+		D62CC256618D98C1759AAAAAFA1ED738 /* Pods-YRUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YRUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1355AA8CB44ECF8D5711D09C1FE61C87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E7247D8A89C2741CC834A2BC266DFAB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84700E5445DF2D9BD34EB4D6248D8DC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9951CA6D53AEBF56F03ED47A282CA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B428FE58912D9E1A5A705CB6741C0FD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB7AE9D317AD346614575D7C891CE52 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CBAE2622254558000D9718B /* YRUIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAE2632254558000D9718B /* 反馈(Feedback) */,
+				0CBAE26C2254558000D9718B /* 导航(Navigation) */,
+				0CBAE2792254558000D9718B /* 数据录入(Data Entry) */,
+				0CBAE2A02254558100D9718B /* 页面(Page) */,
+				0CBAE2DB2254558100D9718B /* 数据展示(Data Display) */,
+				0CBAE2EF2254558100D9718B /* 手势(Gesture) */,
+			);
+			name = YRUIComponents;
+			path = YRUI/Classes/YRUIComponents;
+			sourceTree = "<group>";
+		};
+		0CBAE2632254558000D9718B /* 反馈(Feedback) */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAE2642254558000D9718B /* YRTip.h */,
+				0CBAE2652254558000D9718B /* YRDialog.m */,
+				0CBAE2662254558000D9718B /* YRIndicatorComponent.h */,
+				0CBAE2672254558000D9718B /* YRIndicator.h */,
+				0CBAE2682254558000D9718B /* YRTip.m */,
+				0CBAE2692254558000D9718B /* YRDialog.h */,
+				0CBAE26A2254558000D9718B /* YRIndicatorComponent.m */,
+				0CBAE26B2254558000D9718B /* YRIndicator.m */,
+			);
+			path = "反馈(Feedback)";
+			sourceTree = "<group>";
+		};
+		0CBAE26C2254558000D9718B /* 导航(Navigation) */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAE26D2254558000D9718B /* YRListRow.m */,
+				0CBAE26E2254558000D9718B /* YRLabelBar.h */,
+				0CBAE26F2254558000D9718B /* YRLabel.h */,
+				0CBAE2702254558000D9718B /* YRPagination.m */,
+				0CBAE2712254558000D9718B /* YRSegmentSelect.m */,
+				0CBAE2722254558000D9718B /* YRBubble.m */,
+				0CBAE2732254558000D9718B /* YRLabelBar.m */,
+				0CBAE2742254558000D9718B /* YRListRow.h */,
+				0CBAE2752254558000D9718B /* YRPagination.h */,
+				0CBAE2762254558000D9718B /* YRLabel.m */,
+				0CBAE2772254558000D9718B /* YRBubble.h */,
+				0CBAE2782254558000D9718B /* YRSegmentSelect.h */,
+			);
+			path = "导航(Navigation)";
+			sourceTree = "<group>";
+		};
+		0CBAE2792254558000D9718B /* 数据录入(Data Entry) */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAE27A2254558000D9718B /* YRSearchInput.h */,
+				0CBAE27B2254558000D9718B /* YRTextInputView.h */,
+				0CBAE27C2254558000D9718B /* 选择框(Selected) */,
+				0CBAE2882254558000D9718B /* 区域选择(Eare Selected) */,
+				0CBAE2902254558000D9718B /* YRTextInputView.m */,
+				0CBAE2912254558100D9718B /* YRSearchInput.m */,
+				0CBAE2922254558100D9718B /* 按钮(Button) */,
+				0CBAE2982254558100D9718B /* 滑动条(Slider) */,
+				0CBAE29B2254558100D9718B /* 开关与步进器(Switch and Steps) */,
+			);
+			path = "数据录入(Data Entry)";
+			sourceTree = "<group>";
+		};
+		0CBAE27C2254558000D9718B /* 选择框(Selected) */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAE27D2254558000D9718B /* YRSingleSelectedView.h */,
+				0CBAE27E2254558000D9718B /* YRCheckView.h */,
+				0CBAE27F2254558000D9718B /* Single Selected Data Source */,
+				0CBAE2822254558000D9718B /* YRSingleSelectedView.m */,
+				0CBAE2832254558000D9718B /* Check View Cell */,
+				0CBAE2862254558000D9718B /* YRCheckView.m */,
+				0CBAE2872254558000D9718B /* Resource */,
+			);
+			path = "选择框(Selected)";
+			sourceTree = "<group>";
+		};
+		0CBAE27F2254558000D9718B /* Single Selected Data Source */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAE2802254558000D9718B /* selected.png */,
+				0CBAE2812254558000D9718B /* unselected.png */,
+			);
+			path = "Single Selected Data Source";
+			sourceTree = "<group>";
+		};
+		0CBAE2832254558000D9718B /* Check View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAE2842254558000D9718B /* YRCheckCell.h */,
+				0CBAE2852254558000D9718B /* YRCheckCell.m */,
+			);
+			path = "Check View Cell";
+			sourceTree = "<group>";
+		};
+		0CBAE2872254558000D9718B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		0CBAE2882254558000D9718B /* 区域选择(Eare Selected) */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAE2892254558000D9718B /* YRDoubleSlider.m */,
+				0CBAE28A2254558000D9718B /* YRDoubleSlider.h */,
+				0CBAE28B2254558000D9718B /* SubView */,
+			);
+			path = "区域选择(Eare Selected)";
+			sourceTree = "<group>";
+		};
+		0CBAE28B2254558000D9718B /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAE28C2254558000D9718B /* UIView+Dimension.h */,
+				0CBAE28D2254558000D9718B /* JLDoubleSlider.m */,
+				0CBAE28E2254558000D9718B /* UIView+Dimension.m */,
+				0CBAE28F2254558000D9718B /* JLDoubleSlider.h */,
+			);
+			path = SubView;
+			sourceTree = "<group>";
+		};
+		0CBAE2922254558100D9718B /* 按钮(Button) */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAE2932254558100D9718B /* LabeledActivityIndicatorView.h */,
+				0CBAE2942254558100D9718B /* YRLargeButton.m */,
+				0CBAE2952254558100D9718B /* YRLargeButton.h */,
+				0CBAE2962254558100D9718B /* LabeledActivityIndicatorView.m */,
+				0CBAE2972254558100D9718B /* success.png */,
+			);
+			path = "按钮(Button)";
+			sourceTree = "<group>";
+		};
+		0CBAE2982254558100D9718B /* 滑动条(Slider) */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAE2992254558100D9718B /* YRSlider.h */,
+				0CBAE29A2254558100D9718B /* YRSlider.m */,
+			);
+			path = "滑动条(Slider)";
+			sourceTree = "<group>";
+		};
+		0CBAE29B2254558100D9718B /* 开关与步进器(Switch and Steps) */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAE29C2254558100D9718B /* YRSwitchView.h */,
+				0CBAE29D2254558100D9718B /* YRStepsView.m */,
+				0CBAE29E2254558100D9718B /* YRSwitchView.m */,
+				0CBAE29F2254558100D9718B /* YRStepsView.h */,
+			);
+			path = "开关与步进器(Switch and Steps)";
+			sourceTree = "<group>";
+		};
+		0CBAE2A02254558100D9718B /* 页面(Page) */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAE2A12254558100D9718B /* 启动页(Start Page) */,
+			);
+			path = "页面(Page)";
+			sourceTree = "<group>";
+		};
+		0CBAE2A12254558100D9718B /* 启动页(Start Page) */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAE2A22254558100D9718B /* YRLaunchAdManager.h */,
+				0CBAE2A32254558100D9718B /* Source */,
+				0CBAE2AF2254558100D9718B /* YRLaunchAdManager.m */,
+				0CBAE2B02254558100D9718B /* Class */,
+				0CBAE2BD2254558100D9718B /* XHLaunchAd */,
+			);
+			path = "启动页(Start Page)";
+			sourceTree = "<group>";
+		};
+		0CBAE2A32254558100D9718B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAE2A42254558100D9718B /* LaunchVideoAd.json */,
+				0CBAE2A52254558100D9718B /* video0.mp4 */,
+				0CBAE2A62254558100D9718B /* video1.mp4 */,
+				0CBAE2A72254558100D9718B /* LaunchImageAd.json */,
+				0CBAE2A82254558100D9718B /* image4.jpg */,
+				0CBAE2A92254558100D9718B /* image1.jpg */,
+				0CBAE2AA2254558100D9718B /* image12.gif */,
+				0CBAE2AB2254558100D9718B /* image0.jpg */,
+				0CBAE2AC2254558100D9718B /* image2.jpg */,
+				0CBAE2AD2254558100D9718B /* image11.gif */,
+				0CBAE2AE2254558100D9718B /* image3.jpg */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		0CBAE2B02254558100D9718B /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAE2B12254558100D9718B /* Tools */,
+				0CBAE2B82254558100D9718B /* WebViewController.m */,
+				0CBAE2B92254558100D9718B /* Model */,
+				0CBAE2BC2254558100D9718B /* WebViewController.h */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		0CBAE2B12254558100D9718B /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAE2B22254558100D9718B /* Network */,
+				0CBAE2B52254558100D9718B /* UIViewController+ */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		0CBAE2B22254558100D9718B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAE2B32254558100D9718B /* Network.m */,
+				0CBAE2B42254558100D9718B /* Network.h */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		0CBAE2B52254558100D9718B /* UIViewController+ */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAE2B62254558100D9718B /* UIViewController+Nav.h */,
+				0CBAE2B72254558100D9718B /* UIViewController+Nav.m */,
+			);
+			path = "UIViewController+";
+			sourceTree = "<group>";
+		};
+		0CBAE2B92254558100D9718B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAE2BA2254558100D9718B /* LaunchAdModel.h */,
+				0CBAE2BB2254558100D9718B /* LaunchAdModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0CBAE2BD2254558100D9718B /* XHLaunchAd */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAE2BE2254558100D9718B /* Lib */,
+				0CBAE2C42254558100D9718B /* XHLaunchAd */,
+			);
+			path = XHLaunchAd;
+			sourceTree = "<group>";
+		};
+		0CBAE2BE2254558100D9718B /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAE2BF2254558100D9718B /* FLAnimatedImage */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		0CBAE2BF2254558100D9718B /* FLAnimatedImage */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAE2C02254558100D9718B /* FLAnimatedImage.m */,
+				0CBAE2C12254558100D9718B /* FLAnimatedImageView.m */,
+				0CBAE2C22254558100D9718B /* FLAnimatedImage.h */,
+				0CBAE2C32254558100D9718B /* FLAnimatedImageView.h */,
+			);
+			path = FLAnimatedImage;
+			sourceTree = "<group>";
+		};
+		0CBAE2C42254558100D9718B /* XHLaunchAd */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAE2C52254558100D9718B /* XHLaunchAdController.h */,
+				0CBAE2C62254558100D9718B /* XHLaunchAd.h */,
+				0CBAE2C72254558100D9718B /* XHLaunchAdDownloader.h */,
+				0CBAE2C82254558100D9718B /* XHLaunchAdView.m */,
+				0CBAE2C92254558100D9718B /* XHLaunchAdCache.h */,
+				0CBAE2CA2254558100D9718B /* XHLaunchAdConfiguration.h */,
+				0CBAE2CB2254558100D9718B /* XHLaunchAdButton.m */,
+				0CBAE2CC2254558100D9718B /* XHLaunchAdImageView+XHLaunchAdCache.h */,
+				0CBAE2CD2254558100D9718B /* XHLaunchImageView.m */,
+				0CBAE2CE2254558100D9718B /* XHLaunchAdConst.m */,
+				0CBAE2CF2254558100D9718B /* XHLaunchAdImageManager.h */,
+				0CBAE2D02254558100D9718B /* XHLaunchAd.m */,
+				0CBAE2D12254558100D9718B /* XHLaunchAdController.m */,
+				0CBAE2D22254558100D9718B /* XHLaunchAdDownloader.m */,
+				0CBAE2D32254558100D9718B /* XHLaunchImageView.h */,
+				0CBAE2D42254558100D9718B /* XHLaunchAdImageView+XHLaunchAdCache.m */,
+				0CBAE2D52254558100D9718B /* XHLaunchAdConfiguration.m */,
+				0CBAE2D62254558100D9718B /* XHLaunchAdButton.h */,
+				0CBAE2D72254558100D9718B /* XHLaunchAdCache.m */,
+				0CBAE2D82254558100D9718B /* XHLaunchAdView.h */,
+				0CBAE2D92254558100D9718B /* XHLaunchAdImageManager.m */,
+				0CBAE2DA2254558100D9718B /* XHLaunchAdConst.h */,
+			);
+			path = XHLaunchAd;
+			sourceTree = "<group>";
+		};
+		0CBAE2DB2254558100D9718B /* 数据展示(Data Display) */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAE2DC2254558100D9718B /* YRBadgeView.h */,
+				0CBAE2DD2254558100D9718B /* 步骤条(Steps Slider) */,
+				0CBAE2E72254558100D9718B /* 通告栏(Notice) */,
+				0CBAE2EE2254558100D9718B /* YRBadgeView.m */,
+			);
+			path = "数据展示(Data Display)";
+			sourceTree = "<group>";
+		};
+		0CBAE2DD2254558100D9718B /* 步骤条(Steps Slider) */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAE2DE2254558100D9718B /* YRStepsSlider.h */,
+				0CBAE2DF2254558100D9718B /* YRStepsSliderRowView.m */,
+				0CBAE2E02254558100D9718B /* YRStepsSlider.m */,
+				0CBAE2E12254558100D9718B /* Subview */,
+				0CBAE2E62254558100D9718B /* YRStepsSliderRowView.h */,
+			);
+			path = "步骤条(Steps Slider)";
+			sourceTree = "<group>";
+		};
+		0CBAE2E12254558100D9718B /* Subview */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAE2E22254558100D9718B /* YRStepsSliderSubView.h */,
+				0CBAE2E32254558100D9718B /* YSStepsRowView.m */,
+				0CBAE2E42254558100D9718B /* YSStepsRowView.h */,
+				0CBAE2E52254558100D9718B /* YRStepsSliderSubView.m */,
+			);
+			path = Subview;
+			sourceTree = "<group>";
+		};
+		0CBAE2E72254558100D9718B /* 通告栏(Notice) */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAE2E82254558100D9718B /* YRNoticeView.m */,
+				0CBAE2E92254558100D9718B /* YRNoticeView.h */,
+				0CBAE2EA2254558100D9718B /* Photo Data Souce */,
+			);
+			path = "通告栏(Notice)";
+			sourceTree = "<group>";
+		};
+		0CBAE2EA2254558100D9718B /* Photo Data Souce */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAE2EB2254558100D9718B /* laba.png */,
+				0CBAE2EC2254558100D9718B /* push.png */,
+				0CBAE2ED2254558100D9718B /* close.png */,
+			);
+			path = "Photo Data Souce";
+			sourceTree = "<group>";
+		};
+		0CBAE2EF2254558100D9718B /* 手势(Gesture) */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAE2F02254558100D9718B /* YRRefreshHeader.h */,
+				0CBAE2F12254558100D9718B /* YRRefreshFooter.h */,
+				0CBAE2F22254558100D9718B /* YRRefreshFooter.m */,
+				0CBAE2F32254558100D9718B /* YRRefreshHeader.m */,
+			);
+			path = "手势(Gesture)";
+			sourceTree = "<group>";
+		};
+		0CBAE2F42254558100D9718B /* YRUICore */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAE2F52254558100D9718B /* YRStyle.h */,
+				0CBAE2F62254558100D9718B /* YRCommonConfig.m */,
+				0CBAE2F72254558100D9718B /* YRUICommonDefines.h */,
+				0CBAE2F82254558100D9718B /* YRCommonConfig.h */,
+				0CBAE2F92254558100D9718B /* YRStyle.m */,
+			);
+			name = YRUICore;
+			path = YRUI/Classes/YRUICore;
+			sourceTree = "<group>";
+		};
+		0CBAE2FB2254558100D9718B /* UIKitExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAE2FC2254558100D9718B /* UIView+YRUI.h */,
+				0CBAE2FD2254558100D9718B /* UIView+YRUI.m */,
+			);
+			name = UIKitExtensions;
+			path = YRUI/Classes/UIKitExtensions;
+			sourceTree = "<group>";
+		};
+		38F743C68CC3CA474DB1F7F4F200F7BA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FE57784ABA0EE1FF38BA8382F17B699 /* YRUI */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3FE57784ABA0EE1FF38BA8382F17B699 /* YRUI */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAE2FB2254558100D9718B /* UIKitExtensions */,
+				0CBAE2622254558000D9718B /* YRUIComponents */,
+				0CBAE2F42254558100D9718B /* YRUICore */,
+				0CBAE2FA2254558100D9718B /* YRUIKit.h */,
+				53256E2911DB5D9516C064A937B0F780 /* Pod */,
+				63F747A7B79CA74520323D5C4C2F455E /* Support Files */,
+			);
+			name = YRUI;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		53256E2911DB5D9516C064A937B0F780 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AED3F985C280164CCC6E748A90B6EB84 /* LICENSE */,
+				51C9B05DC4616C8D3D441979818E5787 /* README.md */,
+				05C705D1C8EDCEB5B9669CF18AB592C4 /* YRUI.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		63F747A7B79CA74520323D5C4C2F455E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				76742D93672EBE8A97E615C4AA205FB7 /* YRUI.modulemap */,
+				700156925B7400595CF804FB6A23437E /* YRUI.xcconfig */,
+				15696184E4848AA55C794D1BF476B6AD /* YRUI-dummy.m */,
+				593AF1A5D9B9FE6F1188183201DF5454 /* YRUI-Info.plist */,
+				37232E5C5F1AF53677734EFAF4179E73 /* YRUI-prefix.pch */,
+				D3309B9E11355C5313C20EE5256BAC13 /* YRUI-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YRUI";
+			sourceTree = "<group>";
+		};
+		6C2799C0AABEB6221EEB74979004A76D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A81A74954D58BB892043B5AB1D396B6C /* Pods_YRUI_Example.framework */,
+				53FAF1AC3C61907AC552F25533CB6BA4 /* Pods_YRUI_Tests.framework */,
+				8AECE94D356AEE0F905300F668815656 /* YRUI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A54AE2162145C77699A090CD247B8A0A /* Pods-YRUI_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B34407CB279A0B485615DA550B9818DB /* Pods-YRUI_Tests.modulemap */,
+				1E490A6C5D72ACD3AA5EC4013E70C283 /* Pods-YRUI_Tests-acknowledgements.markdown */,
+				19773BFF2B5666624ECA95AA0F4D9543 /* Pods-YRUI_Tests-acknowledgements.plist */,
+				25E850D4A3AC0693AF6255862DC240AA /* Pods-YRUI_Tests-dummy.m */,
+				B5990AAB3B045C5E15678C1039BA5CDA /* Pods-YRUI_Tests-Info.plist */,
+				CD799610CC0EF984FC4C61DAD3E3A96D /* Pods-YRUI_Tests-umbrella.h */,
+				5CED05434EDC7B82FBEAA65C4281C725 /* Pods-YRUI_Tests.debug.xcconfig */,
+				D62CC256618D98C1759AAAAAFA1ED738 /* Pods-YRUI_Tests.release.xcconfig */,
+			);
+			name = "Pods-YRUI_Tests";
+			path = "Target Support Files/Pods-YRUI_Tests";
+			sourceTree = "<group>";
+		};
+		A738968C9064EFAC28E94A340523237A /* Pods-YRUI_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4A7AFAEB2C1CA285E565D0CB39C23333 /* Pods-YRUI_Example.modulemap */,
+				B5A786771AC84D160ED308A139E79DF5 /* Pods-YRUI_Example-acknowledgements.markdown */,
+				9CB9E78EF18D223489FEF8D04215AC32 /* Pods-YRUI_Example-acknowledgements.plist */,
+				9602CAAE84D1508DA93A871DC234310B /* Pods-YRUI_Example-dummy.m */,
+				1055C09DC978D32C4BF3A0F4F2E8C3E8 /* Pods-YRUI_Example-frameworks.sh */,
+				92936B3E4E0972FE0E3DEDAB293FF8A6 /* Pods-YRUI_Example-Info.plist */,
+				1D601828BD22E6FE4001C83789F66E2B /* Pods-YRUI_Example-umbrella.h */,
+				2989E868F93B4932642E8501EA10FAA6 /* Pods-YRUI_Example.debug.xcconfig */,
+				0032BF3E39211F593E6BD5A97DAEE6DF /* Pods-YRUI_Example.release.xcconfig */,
+			);
+			name = "Pods-YRUI_Example";
+			path = "Target Support Files/Pods-YRUI_Example";
+			sourceTree = "<group>";
+		};
+		C2491A75503B719571F3AA2DBA0546AD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A738968C9064EFAC28E94A340523237A /* Pods-YRUI_Example */,
+				A54AE2162145C77699A090CD247B8A0A /* Pods-YRUI_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				38F743C68CC3CA474DB1F7F4F200F7BA /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				6C2799C0AABEB6221EEB74979004A76D /* Products */,
+				C2491A75503B719571F3AA2DBA0546AD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2B94933F4E1F9F89F64C11283D38C783 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				413EA07049EB0317B137681EDB4F8281 /* Pods-YRUI_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD06D8CCAFFD36E6A0A107968178784F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52060DBF869B745F71AAA3203ADA64D8 /* YRUI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4297AAC5E57A6C62F0773E2B6A5C1B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CBAE31E2254558100D9718B /* UIView+Dimension.h in Headers */,
+				0CBAE30D2254558100D9718B /* YRListRow.h in Headers */,
+				0CBAE34F2254558100D9718B /* XHLaunchAdImageView+XHLaunchAdCache.h in Headers */,
+				ACEACC369702094F6F9B066DBE0D6010 /* Pods-YRUI_Example-umbrella.h in Headers */,
+				0CBAE3082254558100D9718B /* YRLabel.h in Headers */,
+				0CBAE3712254558100D9718B /* YRStyle.h in Headers */,
+				0CBAE2FE2254558100D9718B /* YRTip.h in Headers */,
+				0CBAE32B2254558100D9718B /* YRSwitchView.h in Headers */,
+				0CBAE3112254558100D9718B /* YRSegmentSelect.h in Headers */,
+				0CBAE3142254558100D9718B /* YRSingleSelectedView.h in Headers */,
+				0CBAE32E2254558100D9718B /* YRStepsView.h in Headers */,
+				0CBAE33D2254558100D9718B /* Network.h in Headers */,
+				0CBAE3492254558100D9718B /* XHLaunchAd.h in Headers */,
+				0CBAE3732254558100D9718B /* YRUICommonDefines.h in Headers */,
+				0CBAE35B2254558100D9718B /* XHLaunchAdView.h in Headers */,
+				0CBAE3592254558100D9718B /* XHLaunchAdButton.h in Headers */,
+				0CBAE3742254558100D9718B /* YRCommonConfig.h in Headers */,
+				0CBAE30E2254558100D9718B /* YRPagination.h in Headers */,
+				0CBAE3772254558100D9718B /* UIView+YRUI.h in Headers */,
+				0CBAE33E2254558100D9718B /* UIViewController+Nav.h in Headers */,
+				0CBAE3122254558100D9718B /* YRSearchInput.h in Headers */,
+				0CBAE35E2254558100D9718B /* YRBadgeView.h in Headers */,
+				0CBAE3432254558100D9718B /* WebViewController.h in Headers */,
+				0CBAE3132254558100D9718B /* YRTextInputView.h in Headers */,
+				0CBAE3212254558100D9718B /* JLDoubleSlider.h in Headers */,
+				0CBAE3482254558100D9718B /* XHLaunchAdController.h in Headers */,
+				0CBAE35F2254558100D9718B /* YRStepsSlider.h in Headers */,
+				0CBAE3152254558100D9718B /* YRCheckView.h in Headers */,
+				0CBAE3462254558100D9718B /* FLAnimatedImage.h in Headers */,
+				0CBAE3002254558100D9718B /* YRIndicatorComponent.h in Headers */,
+				0CBAE36E2254558100D9718B /* YRRefreshFooter.h in Headers */,
+				0CBAE3012254558100D9718B /* YRIndicator.h in Headers */,
+				0CBAE3412254558100D9718B /* LaunchAdModel.h in Headers */,
+				0CBAE3522254558100D9718B /* XHLaunchAdImageManager.h in Headers */,
+				0CBAE34D2254558100D9718B /* XHLaunchAdConfiguration.h in Headers */,
+				0CBAE3642254558100D9718B /* YSStepsRowView.h in Headers */,
+				0CBAE34A2254558100D9718B /* XHLaunchAdDownloader.h in Headers */,
+				0CBAE3562254558100D9718B /* XHLaunchImageView.h in Headers */,
+				0CBAE3242254558100D9718B /* LabeledActivityIndicatorView.h in Headers */,
+				0CBAE32F2254558100D9718B /* YRLaunchAdManager.h in Headers */,
+				0CBAE3192254558100D9718B /* YRCheckCell.h in Headers */,
+				0CBAE3292254558100D9718B /* YRSlider.h in Headers */,
+				0CBAE3072254558100D9718B /* YRLabelBar.h in Headers */,
+				0CBAE3472254558100D9718B /* FLAnimatedImageView.h in Headers */,
+				0CBAE31D2254558100D9718B /* YRDoubleSlider.h in Headers */,
+				0CBAE3662254558100D9718B /* YRStepsSliderRowView.h in Headers */,
+				0CBAE36D2254558100D9718B /* YRRefreshHeader.h in Headers */,
+				0CBAE3622254558100D9718B /* YRStepsSliderSubView.h in Headers */,
+				0CBAE3262254558100D9718B /* YRLargeButton.h in Headers */,
+				0CBAE35D2254558100D9718B /* XHLaunchAdConst.h in Headers */,
+				0CBAE3682254558100D9718B /* YRNoticeView.h in Headers */,
+				0CBAE3762254558100D9718B /* YRUIKit.h in Headers */,
+				0CBAE3032254558100D9718B /* YRDialog.h in Headers */,
+				0CBAE34C2254558100D9718B /* XHLaunchAdCache.h in Headers */,
+				0CBAE3102254558100D9718B /* YRBubble.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		14507F55AB04CBD4DA3BE6DA783E3C7F /* Pods-YRUI_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DEEDE2CFA84C708A3DA58E86BE96ED2 /* Build configuration list for PBXNativeTarget "Pods-YRUI_Example" */;
+			buildPhases = (
+				E4297AAC5E57A6C62F0773E2B6A5C1B3 /* Headers */,
+				BB0F55DAFF3A08DB9B971A0A8EC4C807 /* Sources */,
+				B428FE58912D9E1A5A705CB6741C0FD5 /* Frameworks */,
+				1E4185074DA6018B443D3BEF22264FDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED31AE064D6F2A3331B52BFB0EC93D85 /* PBXTargetDependency */,
+			);
+			name = "Pods-YRUI_Example";
+			productName = "Pods-YRUI_Example";
+			productReference = A81A74954D58BB892043B5AB1D396B6C /* Pods_YRUI_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2B501E8D727A0FEEA6D84AC9243D074A /* Pods-YRUI_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08DE48C47B7904AF8B095D471BDBF85F /* Build configuration list for PBXNativeTarget "Pods-YRUI_Tests" */;
+			buildPhases = (
+				2B94933F4E1F9F89F64C11283D38C783 /* Headers */,
+				7842317F38916B8738A418FF935DF4D4 /* Sources */,
+				1355AA8CB44ECF8D5711D09C1FE61C87 /* Frameworks */,
+				AB19999F16256BC5F88FD4E583667F11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				513539CED24A6A8E6EA77CF4486754EA /* PBXTargetDependency */,
+			);
+			name = "Pods-YRUI_Tests";
+			productName = "Pods-YRUI_Tests";
+			productReference = 53FAF1AC3C61907AC552F25533CB6BA4 /* Pods_YRUI_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B8466D5551091564A9D3D0E0F685CF42 /* YRUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 237696429D7A76572D4C66E975792070 /* Build configuration list for PBXNativeTarget "YRUI" */;
+			buildPhases = (
+				DD06D8CCAFFD36E6A0A107968178784F /* Headers */,
+				A49DED3CE71490B9CA33F69E9DADA421 /* Sources */,
+				84700E5445DF2D9BD34EB4D6248D8DC6 /* Frameworks */,
+				A2D948EB0FD152FAA9A0828D1F8B6937 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YRUI;
+			productName = YRUI;
+			productReference = 8AECE94D356AEE0F905300F668815656 /* YRUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6C2799C0AABEB6221EEB74979004A76D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14507F55AB04CBD4DA3BE6DA783E3C7F /* Pods-YRUI_Example */,
+				2B501E8D727A0FEEA6D84AC9243D074A /* Pods-YRUI_Tests */,
+				B8466D5551091564A9D3D0E0F685CF42 /* YRUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E4185074DA6018B443D3BEF22264FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CBAE3342254558100D9718B /* image4.jpg in Resources */,
+				0CBAE3162254558100D9718B /* selected.png in Resources */,
+				0CBAE3302254558100D9718B /* LaunchVideoAd.json in Resources */,
+				0CBAE3362254558100D9718B /* image12.gif in Resources */,
+				0CBAE3282254558100D9718B /* success.png in Resources */,
+				0CBAE33A2254558100D9718B /* image3.jpg in Resources */,
+				0CBAE3322254558100D9718B /* video1.mp4 in Resources */,
+				0CBAE3312254558100D9718B /* video0.mp4 in Resources */,
+				0CBAE3332254558100D9718B /* LaunchImageAd.json in Resources */,
+				0CBAE3172254558100D9718B /* unselected.png in Resources */,
+				0CBAE3352254558100D9718B /* image1.jpg in Resources */,
+				0CBAE36A2254558100D9718B /* push.png in Resources */,
+				0CBAE3692254558100D9718B /* laba.png in Resources */,
+				0CBAE3392254558100D9718B /* image11.gif in Resources */,
+				0CBAE3382254558100D9718B /* image2.jpg in Resources */,
+				0CBAE36B2254558100D9718B /* close.png in Resources */,
+				0CBAE3372254558100D9718B /* image0.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D948EB0FD152FAA9A0828D1F8B6937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB19999F16256BC5F88FD4E583667F11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7842317F38916B8738A418FF935DF4D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				102B1A3D8CA8D4A88FE755B175B951D5 /* Pods-YRUI_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A49DED3CE71490B9CA33F69E9DADA421 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF457F03D73FEB30AF4AD0961015319 /* YRUI-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0F55DAFF3A08DB9B971A0A8EC4C807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CBAE3512254558100D9718B /* XHLaunchAdConst.m in Sources */,
+				0CBAE36C2254558100D9718B /* YRBadgeView.m in Sources */,
+				0CBAE33C2254558100D9718B /* Network.m in Sources */,
+				0CBAE3042254558100D9718B /* YRIndicatorComponent.m in Sources */,
+				0CBAE3442254558100D9718B /* FLAnimatedImage.m in Sources */,
+				0CBAE3232254558100D9718B /* YRSearchInput.m in Sources */,
+				0CBAE3022254558100D9718B /* YRTip.m in Sources */,
+				0CBAE3782254558100D9718B /* UIView+YRUI.m in Sources */,
+				0CBAE3502254558100D9718B /* XHLaunchImageView.m in Sources */,
+				0CBAE30A2254558100D9718B /* YRSegmentSelect.m in Sources */,
+				0CBAE34B2254558100D9718B /* XHLaunchAdView.m in Sources */,
+				0CBAE32C2254558100D9718B /* YRStepsView.m in Sources */,
+				0CBAE30C2254558100D9718B /* YRLabelBar.m in Sources */,
+				0CBAE3612254558100D9718B /* YRStepsSlider.m in Sources */,
+				0CBAE3532254558100D9718B /* XHLaunchAd.m in Sources */,
+				0CBAE3542254558100D9718B /* XHLaunchAdController.m in Sources */,
+				0CBAE3602254558100D9718B /* YRStepsSliderRowView.m in Sources */,
+				0CBAE35C2254558100D9718B /* XHLaunchAdImageManager.m in Sources */,
+				0CBAE3092254558100D9718B /* YRPagination.m in Sources */,
+				0CBAE2FF2254558100D9718B /* YRDialog.m in Sources */,
+				0CBAE3452254558100D9718B /* FLAnimatedImageView.m in Sources */,
+				0CBAE3182254558100D9718B /* YRSingleSelectedView.m in Sources */,
+				0CBAE3422254558100D9718B /* LaunchAdModel.m in Sources */,
+				0CBAE34E2254558100D9718B /* XHLaunchAdButton.m in Sources */,
+				0CBAE32D2254558100D9718B /* YRSwitchView.m in Sources */,
+				0CBAE3582254558100D9718B /* XHLaunchAdConfiguration.m in Sources */,
+				0CBAE3052254558100D9718B /* YRIndicator.m in Sources */,
+				0CBAE3632254558100D9718B /* YSStepsRowView.m in Sources */,
+				0CBAE3722254558100D9718B /* YRCommonConfig.m in Sources */,
+				0CBAE36F2254558100D9718B /* YRRefreshFooter.m in Sources */,
+				0CBAE3272254558100D9718B /* LabeledActivityIndicatorView.m in Sources */,
+				0CBAE33B2254558100D9718B /* YRLaunchAdManager.m in Sources */,
+				0CBAE3202254558100D9718B /* UIView+Dimension.m in Sources */,
+				0CBAE3552254558100D9718B /* XHLaunchAdDownloader.m in Sources */,
+				0CBAE3402254558100D9718B /* WebViewController.m in Sources */,
+				0CBAE3652254558100D9718B /* YRStepsSliderSubView.m in Sources */,
+				0CBAE3572254558100D9718B /* XHLaunchAdImageView+XHLaunchAdCache.m in Sources */,
+				0CBAE33F2254558100D9718B /* UIViewController+Nav.m in Sources */,
+				E5EC3C7A91E08C9742C39B1745B1631A /* Pods-YRUI_Example-dummy.m in Sources */,
+				0CBAE3702254558100D9718B /* YRRefreshHeader.m in Sources */,
+				0CBAE3062254558100D9718B /* YRListRow.m in Sources */,
+				0CBAE31B2254558100D9718B /* YRCheckView.m in Sources */,
+				0CBAE30F2254558100D9718B /* YRLabel.m in Sources */,
+				0CBAE32A2254558100D9718B /* YRSlider.m in Sources */,
+				0CBAE30B2254558100D9718B /* YRBubble.m in Sources */,
+				0CBAE35A2254558100D9718B /* XHLaunchAdCache.m in Sources */,
+				0CBAE31A2254558100D9718B /* YRCheckCell.m in Sources */,
+				0CBAE3252254558100D9718B /* YRLargeButton.m in Sources */,
+				0CBAE3222254558100D9718B /* YRTextInputView.m in Sources */,
+				0CBAE3752254558100D9718B /* YRStyle.m in Sources */,
+				0CBAE31C2254558100D9718B /* YRDoubleSlider.m in Sources */,
+				0CBAE3672254558100D9718B /* YRNoticeView.m in Sources */,
+				0CBAE31F2254558100D9718B /* JLDoubleSlider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		513539CED24A6A8E6EA77CF4486754EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YRUI_Example";
+			target = 14507F55AB04CBD4DA3BE6DA783E3C7F /* Pods-YRUI_Example */;
+			targetProxy = 94B9722F7213CF75E4FC4513713E115C /* PBXContainerItemProxy */;
+		};
+		ED31AE064D6F2A3331B52BFB0EC93D85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YRUI;
+			target = B8466D5551091564A9D3D0E0F685CF42 /* YRUI */;
+			targetProxy = 16EE2DF658414EA109BD1F34BF0F6022 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		083B83A6EF009D799BF7AF42F68D0CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D62CC256618D98C1759AAAAAFA1ED738 /* Pods-YRUI_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YRUI_Tests/Pods-YRUI_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YRUI_Tests/Pods-YRUI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		186FD207569411DBC9D473B7174842EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 700156925B7400595CF804FB6A23437E /* YRUI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YRUI/YRUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YRUI/YRUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YRUI/YRUI.modulemap";
+				PRODUCT_MODULE_NAME = YRUI;
+				PRODUCT_NAME = YRUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		34B6F6E6F11A0F22357369064828B84C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CED05434EDC7B82FBEAA65C4281C725 /* Pods-YRUI_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YRUI_Tests/Pods-YRUI_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YRUI_Tests/Pods-YRUI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3B3385B8A749435F1DDAB68DD4F958E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 700156925B7400595CF804FB6A23437E /* YRUI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YRUI/YRUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YRUI/YRUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YRUI/YRUI.modulemap";
+				PRODUCT_MODULE_NAME = YRUI;
+				PRODUCT_NAME = YRUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AA8873FF8C840DA9DC8E1ADD4C5161E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2989E868F93B4932642E8501EA10FAA6 /* Pods-YRUI_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YRUI_Example/Pods-YRUI_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YRUI_Example/Pods-YRUI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0AAC43B95361985DA89394C9BADEF8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0032BF3E39211F593E6BD5A97DAEE6DF /* Pods-YRUI_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YRUI_Example/Pods-YRUI_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YRUI_Example/Pods-YRUI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08DE48C47B7904AF8B095D471BDBF85F /* Build configuration list for PBXNativeTarget "Pods-YRUI_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B6F6E6F11A0F22357369064828B84C /* Debug */,
+				083B83A6EF009D799BF7AF42F68D0CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		237696429D7A76572D4C66E975792070 /* Build configuration list for PBXNativeTarget "YRUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3385B8A749435F1DDAB68DD4F958E9 /* Debug */,
+				186FD207569411DBC9D473B7174842EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DEEDE2CFA84C708A3DA58E86BE96ED2 /* Build configuration list for PBXNativeTarget "Pods-YRUI_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8873FF8C840DA9DC8E1ADD4C5161E4 /* Debug */,
+				B0AAC43B95361985DA89394C9BADEF8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

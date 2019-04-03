@@ -1,0 +1,6 @@
+framework module YRUI {
+  umbrella header "YRUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

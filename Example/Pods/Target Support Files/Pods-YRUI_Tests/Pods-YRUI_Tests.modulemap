@@ -1,0 +1,6 @@
+framework module Pods_YRUI_Tests {
+  umbrella header "Pods-YRUI_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

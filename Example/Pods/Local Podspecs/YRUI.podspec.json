@@ -1,0 +1,22 @@
+{
+  "name": "YRUI",
+  "version": "0.1.0",
+  "summary": "A short description of YRUI.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/cuiChangYunSmile@icloud.com/YRUI",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "cuiChangYunSmile@icloud.com": "cuichangyunsmile@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/cuiChangYunSmile@icloud.com/YRUI.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YRUI/Classes/**/*"
+}
